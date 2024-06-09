@@ -53,6 +53,36 @@ let age=19;
 let status = (age>= 18) ? 'Adult' : 'Minor';
 console.log(status);
 
+let grade = 'B';
+
+switch(grade){
+  case'A':
+  console.log('Execellent!');
+  break;
+  case 'B':
+  console.log('Good job!')
+  break;
+  case'C':
+  console.log('Well done ;)')
+  break;
+  case'D':
+  console.log('You passed.');
+  break;
+  case'F':
+  console.log('Better try again.');
+  break;
+  default:
+    console.log('Invalid grade');
+
+
+
+}
+
+let person = {Name: 'Adrian', age: 18, city: 'Bergen'};
+for (let key in person) {
+  console.log(key + ':', person[key]);
+}
+
 
 
 
